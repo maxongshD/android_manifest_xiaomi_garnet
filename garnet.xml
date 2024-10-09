@@ -2,15 +2,16 @@
 <manifest>
     <!--
     * target: garnet
-    * rom: EvoX :3
+    * rom: Lineage 21
     -->
 
     <!-- Remote -->
     <remote fetch="https://github.com/Garnet-Playground" name="org" />
+    <remote fetch="https://github.com/Garnet-X" name="grntx" />
     <remote fetch="https://git.mainlining.org/adarshgrewal" name="adarsh" />
 
     <!-- Device -->
-    <project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="org" revision="udc" />
+    <project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="grntx" revision="lineage-21" />
 
     <!-- Vendor -->
     <project name="android_vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="org" revision="udc" />
