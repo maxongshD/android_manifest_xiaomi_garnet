@@ -11,10 +11,10 @@
     <remote fetch="https://github.com/garnet-random" name="rand" />
     <remote fetch="https://github.com/crdroidandroid" name="crdroid" />
     <remote fetch="https://git.mainlining.org/adarshgrewal" name="adarsh" />
-
+    <remote fetch="https://github.com/maxongshD" name="max" />
     <!-- Device -->
     <!--<project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="rand" revision="lineage-21" />  -->
-    <project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="crdroid" revision="14.0" />
+    <project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="max" revision="lineage-21" />
 
     <!-- Vendor -->
     <!--<project name="android_vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="org" revision="udc" /> -->
