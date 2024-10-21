@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!--
-    * target: garnet
-    * rom: ArrowOS 13.1
-    -->
+<!--
+* target: garnet
+* rom: ArrowOS 13.1
+-->
 
-    <!-- Remote -->
-    <remote fetch="https://github.com/Garnet-Playground" name="org" />
-    <remote fetch="https://github.com/Garnet-X" name="grntx" />
-    <remote fetch="https://github.com/garnet-random" name="rand" />
-    <remote fetch="https://github.com/crdroidandroid" name="crdroid" />
-    <remote fetch="https://git.mainlining.org/adarshgrewal" name="adarsh" />
-    <remote fetch="https://github.com/maxongshD" name="max" />
-    <!-- Device -->
-    <!--<project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="rand" revision="lineage-21" />  -->
-    <project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="max" revision="lineage-20" />
+<!-- Device -->
+<!-- project name="garnet-random/android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="github" revision="lineage-21" / -->
+<project name="maxongshD/android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="github" revision="lineage-20" />
 
-    <!-- Vendor -->
-    <!--<project name="android_vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="org" revision="udc" /> -->
-    <project name="proprietary_vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="rand" revision="lineage-20" />
+<!-- Vendor -->
+<!-- project name="Garnet-Playground/android_vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="github" revision="udc" / -->
+<project name="garnet-random/proprietary_vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="github" revision="lineage-20" />
 
-    <!-- Kernel -->
-    <project name="android_device_xiaomi_garnet-prebuilt" path="device/xiaomi/garnet-prebuilt" remote="rand" revision="lineage-20" />
+<!-- Kernel -->
+<project name="garnet-random/android_device_xiaomi_garnet-prebuilt" path="device/xiaomi/garnet-prebuilt" remote="github" revision="lineage-20" />
 
-    <!-- Other -->
-    <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="rand" revision="lineage-20" />
-    <project name="proprietary_vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="adarsh" revision="lineage-21" />
+<!-- Other -->
+<project name="garnet-random/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-20" />
+<project name="adarshgrewal/proprietary_vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="github" revision="lineage-21" />
 
 </manifest>
