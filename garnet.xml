@@ -2,7 +2,7 @@
 <manifest>
     <!--
     * target: garnet
-    * rom: EvoX :3
+    * rom: LineageOS 22.2
     -->
 
     <!-- Remote -->
@@ -21,6 +21,5 @@
 
     <!-- Other -->
     <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="org" revision="lineage-22" />
-    <project name="android_vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="codeberg" revision="lineage-22" />
 
 </manifest>
