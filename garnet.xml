@@ -6,19 +6,20 @@
     -->
 
     <!-- Remote -->
-    <remote fetch="https://github.com/garnet-playground" name="org" />
+    <remote fetch="https://github.com/maxongshD" name="org" />
     <remote fetch="https://github.com/Evolution-X-Devices" name="evox" />
     <remote fetch="https://codeberg.org/Coptan99" name="codeberg" />
 
     <!-- Device -->
-    <project name="device_xiaomi_garnet" path="device/xiaomi/garnet" remote="org" revision="vic" />
+    <project name="android_device_xiaomi_garnet" path="device/xiaomi/garnet" remote="org" revision="22.2-prebuilt" />
 
     <!-- Vendor -->
     <project name="vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="org" revision="vic" />
 
     <!-- Kernel -->
-    <project name="device_xiaomi_garnet-kernel" path="device/xiaomi/garnet-kernel" remote="org" revision="vic" />
-
+    <project name="android_kernel_xiaomi_sm7435" path="kernel/xiaomi/sm7435" remote="org" revision="lineage-22.2" />
+    <project name="android_kernel_xiaomi_sm7435-devicetrees" path="kernel/xiaomi/sm7435-devicetrees" remote="org" revision="lineage-22.2" />
+    <project name="android_kernel_xiaomi_sm7435-modules" path="kernel/xiaomi/sm7435-modules" remote="org" revision="lineage-22.2" />
     <!-- Other -->
     <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="org" revision="lineage-22" />
 
